@@ -55,4 +55,5 @@ public class CategoriaResource {
 	            ResponseEntity.ok(categoria.get()) : ResponseEntity.notFound().build();
 	}
 	
+	
 }
